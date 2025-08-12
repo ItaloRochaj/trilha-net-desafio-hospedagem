@@ -94,24 +94,16 @@ Este é um projeto de um sistema de gerenciamento hoteleiro desenvolvido em C# (
 ## 🖥️ Demonstração do Sistema
 
 ### 1. Menu Principal
-![Menu Principal](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi1.png)
-*Tela inicial do sistema com as opções disponíveis*
+![Menu Principal](https://github.com/ItaloRochaj/trilha-net-desafio-hospedagem/blob/v1.1/Images/Assets/resorte1.png)
+*Tela inicial do sistema com as opções de reserva*
 
-### 2. Cadastro de Veículo
-![Adicionar Veículo](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi2.png)
-*Interface de cadastro com informações do veículo*
+### 2. Cadastro de Reserva
+![Cadastro de Reserva](https://github.com/ItaloRochaj/trilha-net-desafio-hospedagem/blob/v1.1/Images/Assets/resorte2.png)
+*Interface de cadastro com informações da suíte e hóspedes*
 
-### 3. Seleção do Tipo de Vaga
-![Tipo de Vaga](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi3.png)
-*Escolha entre vaga rotativa ou reservada*
-
-### 4. Configuração do Período
-![Configurar Período](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi4.png)
-*Definição do período e visualização dos preços*
-
-### 5. Confirmação do Cadastro
-![Sucesso no Cadastro](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi5.png)
-*Confirmação do registro com detalhes da vaga*
+### 3. Resumo da Reserva
+![Resumo da Reserva](https://github.com/ItaloRochaj/trilha-net-desafio-hospedagem/blob/v1.1/Images/Assets/resorte3.png)
+*Detalhes da reserva com valores e informações dos hóspedes*
 
 ## 🛠️ Tecnologias
 
