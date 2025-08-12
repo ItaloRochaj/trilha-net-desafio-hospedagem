@@ -1,21 +1,183 @@
-# DIO - Trilha .NET - Explorando a linguagem C#
-www.dio.me
+# Sistema de Reservas Resort Solari - DIO .NET
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de explorando a linguagem C#, da trilha .NET da DIO.
+Projeto desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA, implementando um sistema completo de## 👨‍💻 Autor
 
-## Contexto
-Você foi contratado para construir um sistema de hospedagem, que será usado para realizar uma reserva em um hotel. Você precisará usar a classe Pessoa, que representa o hóspede, a classe Suíte, e a classe Reserva, que fará um relacionamento entre ambos.
+Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Bootcamp Avanade - Back-end com .NET e IA.
 
-O seu programa deverá cálcular corretamente os valores dos métodos da classe Reserva, que precisará trazer a quantidade de hóspedes e o valor da diária, concedendo um desconto de 10% para caso a reserva seja para um período maior que 10 dias.
+## 📄 Licença
 
-## Regras e validações
-1. Não deve ser possível realizar uma reserva de uma suíte com capacidade menor do que a quantidade de hóspedes. Exemplo: Se é uma suíte capaz de hospedar 2 pessoas, então ao passar 3 hóspedes deverá retornar uma exception.
-2. O método ObterQuantidadeHospedes da classe Reserva deverá retornar a quantidade total de hóspedes, enquanto que o método CalcularValorDiaria deverá retornar o valor da diária (Dias reservados x valor da diária).
-3. Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
+Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
+
+---
+Desenvolvido com 💻 por [Italo Rocha](https://github.com/ItaloRochaj)ento de reservas de hotel com diferentes tipos de suítes e cálculo de valores.
+
+## 💡 Visão Geral
+
+O Resort Solari é um estabelecimento que preza pela excelência em hospitalidade, seguindo o lema "Viva o agora, respire o sempre". O sistema foi desenvolvido para gerenciar reservas, hóspedes e suítes, oferecendo uma experiência completa de gestão hoteleira.
+
+## 📋 Funcionalidades Implementadas
+
+- **Gestão de Suítes**
+  - Cadastro de diferentes tipos de suítes
+  - Definição de capacidade máxima
+  - Precificação por diária
+
+- **Sistema de Reservas**
+  - Validação de capacidade da suíte
+  - Cálculo automático do valor total
+  - Desconto de 10% para estadias de 10 ou mais dias
+  - Registro completo dos hóspedes
+
+- **Gestão de Hóspedes**
+  - Cadastro com nome e sobrenome
+  - Validação da quantidade de hóspedes por suíte
+  - Listagem de hóspedes por reserva
+
+- **Histórico e Relatórios**
+  - Resumo detalhado das reservas
+  - Informações dos hóspedes
+  - Valores e períodos de estadia
+  
+## ⚙️ Estrutura do Projeto
+Este é um projeto de um sistema de gerenciamento hoteleiro desenvolvido em C# (.NET 8.0), que simula o funcionamento de um resort com diferentes tipos de suítes e cálculo de valores.
+
+### Principais Classes:
+
+**1. Pessoa**
+- Propriedades para Nome e Sobrenome
+- Representa os hóspedes do hotel
+
+**2. Suite**
+- Tipo da Suíte
+- Capacidade máxima de hóspedes
+- Valor da diária
+
+**3. Reserva**
+- Lista de hóspedes
+- Suíte reservada
+- Quantidade de dias
+- Métodos para:
+  - Cadastrar hóspedes
+  - Calcular valor da diária
+  - Obter quantidade de hóspedes
+  - Validar capacidade da suíte
+
+**4. HistoricoReservas**
+- Gerenciamento de todas as reservas
+- Cálculo de faturamento
+- Exibição de resumos
+
+### Regras de Negócio:
+
+1. **Validação de Capacidade**
+   - Não permite reservas com mais hóspedes que a capacidade da suíte
+
+2. **Política de Descontos**
+   - 10% de desconto para estadias de 10 ou mais dias
+
+3. **Cálculo de Valores**
+   - Valor base: Diária × Quantidade de dias
+   - Aplicação automática de descontos quando aplicável
+### Boas Práticas Implementadas
+
+- **Orientação a Objetos**
+  - Classes bem definidas e coesas
+  - Encapsulamento apropriado
+  - Validações robustas
+
+- **Interface do Usuário**
+  - Menu interativo e intuitivo
+  - Feedback claro ao usuário
+  - Formatação elegante das informações
+
+- **Manutenibilidade**
+  - Código organizado e limpo
+  - Métodos bem definidos
+  - Fácil extensibilidade
+
+## 🖥️ Demonstração do Sistema
+
+### 1. Menu Principal
+![Menu Principal](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi1.png)
+*Tela inicial do sistema com as opções disponíveis*
+
+### 2. Cadastro de Veículo
+![Adicionar Veículo](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi2.png)
+*Interface de cadastro com informações do veículo*
+
+### 3. Seleção do Tipo de Vaga
+![Tipo de Vaga](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi3.png)
+*Escolha entre vaga rotativa ou reservada*
+
+### 4. Configuração do Período
+![Configurar Período](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi4.png)
+*Definição do período e visualização dos preços*
+
+### 5. Confirmação do Cadastro
+![Sucesso no Cadastro](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi5.png)
+*Confirmação do registro com detalhes da vaga*
+
+## 🛠️ Tecnologias
+
+- C# (.NET 8.0)
+- Orientação a Objetos
+- Visual Studio Code
+- Git/GitHub
+  
+## ⚙️ Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ItaloRochaj/trilha-net-desafio-hospedagem.git
+   ```
+
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd trilha-net-desafio-hospedagem
+   ```
+
+3. Execute o projeto:
+   ```bash
+   dotnet run --project DesafioProjetoHospedagem.csproj
+   ```
 
 
-![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
+## 🎯 Principais Características
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+### Classes Principais
+
+- **Suite**
+  - Tipo e capacidade da suíte
+  - Valor da diária
+  - Validações de ocupação
+
+- **Reserva**
+  - Gestão de hóspedes
+  - Cálculo de valores
+  - Aplicação de descontos
+  - Validações de capacidade
+
+- **HistoricoReservas**
+  - Gerenciamento de reservas
+  - Cálculo de faturamento
+  - Relatórios e resumos
+
+### Especificações Técnicas
+
+- Interface via console interativa
+- Validações robustas de entrada
+- Cálculos precisos de valores
+- Uso de estruturas como `if/else`, `foreach` e `List<T>`
+- Implementação orientada a objetos
+- Tratamento de exceções
+
+## 👨‍💻 Autor
+
+Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Bootcamp Avanade - Back-end com .NET e IA.
+
+## 📄 Licença
+
+Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
+
+---
+<div align="center">Desenvolvido com 👽 por <a href="https://github.com/ItaloRochaj">Italo Rocha</a></div>
