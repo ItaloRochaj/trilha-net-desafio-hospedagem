@@ -4,10 +4,6 @@ Projeto desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA, im
 
 Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Bootcamp Avanade - Back-end com .NET e IA.
 
-## 📄 Licença
-
-Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
-
 ---
 Desenvolvido com 💻 por [Italo Rocha](https://github.com/ItaloRochaj)ento de reservas de hotel com diferentes tipos de suítes e cálculo de valores.
 
