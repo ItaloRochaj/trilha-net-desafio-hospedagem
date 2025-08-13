@@ -217,8 +217,4 @@ dotnet watch run --project DesafioProjetoHospedagem.csproj
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido como parte do **Bootcamp Avanade - Back-end com .NET e IA** e é distribuído sob a licença MIT.
-
----
-
-*Desenvolvido com � e ☕ por [Ítalo Rocha](https://github.com/ItaloRochaj)*
+Este projeto foi desenvolvido como parte do **Bootcamp Avanade - Back-end com .NET e IA**.
